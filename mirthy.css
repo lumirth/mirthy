@@ -126,6 +126,7 @@ table code {
   border-radius: 0.5rem;
   padding: 0.1rem 0.3rem;
 }
+
 /* ------------------------------------ x ----------------------------------- */
 
 .media {
@@ -196,7 +197,6 @@ table code {
   margin: 1rem 0;
 }
 
-
 /* copy button */
 pre.astro-code {
   position: relative;
@@ -220,18 +220,19 @@ pre.astro-code > .copy-button {
   animation: fade-in 2s;
 }
 
-
 /* -------------------------------------------------------------------------- */
 /*                   all the table styles need to be redone                   */
 /* -------------------------------------------------------------------------- */
 
-.table { /* replaced table */
+.table {
+  /* replaced table */
   /* table styling */
   border-collapse: collapse;
   margin-bottom: 1rem;
 }
 
-.table__header { /* replaced thead */
+.table__header {
+  /* replaced thead */
   /* table header styling */
   background-color: var(--background-color);
   color: var(--power-text-color);
@@ -522,38 +523,40 @@ code {
   color: var(--faded-text-color);
 }
 
-
 /* -------------------------------------------------------------------------- */
 /*                               button styling                               */
 /* -------------------------------------------------------------------------- */
 
 .button {
   position: relative;
-  background-color: var(--item-background-color);
-  outline: none;
-  border: none;
   box-sizing: border-box;
+
+
+  background-color: var(--item-background-color);
+  border: none;
   border: 1px solid var(--border-color);
   color: var(--text-color);
+
   margin: 0;
-  padding: 0;
+  padding: 0 0.5rem;
   height: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 0.6rem 0.6rem 0.55rem 0.6rem; */
-  font-size: 1.2rem;
+
   cursor: pointer;
+
+  font-size: 1.2rem;
   font-family: "Inter", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+
   transition: all 0.1s ease-in-out;
 }
 
 .button--dont-wrap {
   flex-shrink: 0;
 }
-
 
 .button:hover {
   background-color: var(--border-color);
@@ -565,8 +568,7 @@ code {
 
 @media (min-width: 769px) {
   .button {
-    line-height: 19.5px;
-    padding: 0.5rem 0.5rem 0.45rem 0.5rem;
+    height: 2rem;
     font-size: 1rem;
   }
 }
@@ -577,15 +579,20 @@ code {
 
 .input-text-line {
   position: relative;
-  display: inline-block;
-  outline: none;
-  margin: 0;
   box-sizing: border-box;
-  padding: 0.6rem 0.6rem 0.55rem 0.6rem;
-  font-size: 1.2rem;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  padding: 0 0.5rem;
+
   border: 1px solid var(--border-color);
   background-color: var(--item-background-color);
+  
+  height: 2.5rem;
+  max-height: 2.5rem;
+
   color: var(--text-color);
+  font-size: 1.2rem;
   font-family: "Inter", sans-serif;
   font-weight: 300;
   transition: all 0.1s ease-in-out;
@@ -593,7 +600,7 @@ code {
 
 @media (min-width: 769px) {
   .input-text-line {
-    padding: 0.5rem 0.5rem 0.45rem 0.5rem;
+    height: 2rem;
     font-size: 1rem;
   }
 }
@@ -603,10 +610,12 @@ code {
   text-transform: uppercase;
   opacity: 0.3;
 }
+
 .input-text-line:focus::placeholder {
   color: transparent;
   transition: all 0.1s ease-in-out;
 }
+
 .input-text-line:focus {
   border: 1px solid var(--accent-color);
   transition: all 0.1s ease-in-out;
@@ -617,5 +626,6 @@ code {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
