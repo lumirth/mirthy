@@ -83,6 +83,7 @@
   /* replaced code */
   /* set default font for code blocks */
   font-family: "Fira Code", monospace;
+  word-break: break-word;
 }
 
 .code--inline {
@@ -110,13 +111,13 @@
 /* ------------------------------------ x ----------------------------------- */
 /* shiki line numbers */
 /* pre code .line:before {
-      counter-increment: step;
-      content: counter(step);
-      display: inline-block;
-      width: 2em;
-      margin-right: 1em;
-      color: #525053;
-    } */
+    counter-increment: step;
+    content: counter(step);
+    display: inline-block;
+    width: 2em;
+    margin-right: 1em;
+    color: #525053;
+  } */
 
 /* ------------------------------------ x ----------------------------------- */
 
@@ -403,10 +404,8 @@ article {
   margin-top: 24px;
 }
 
-sup a,
 .data-footnote-backref {
   color: var(--faded-text-color);
-  text-decoration: none;
 }
 
 .data-footnote-backref:hover {
@@ -436,7 +435,6 @@ sup a,
 
   margin: 0;
   padding: 0 0.5rem;
-  line-height: 1;
   height: 2.5rem;
   display: flex;
   justify-content: center;
@@ -493,14 +491,10 @@ sup a,
 /* -------------------------------------------------------------------------- */
 
 .input-text-line {
-  flex-grow: 1;
-  min-width: fit-content;
-
   position: relative;
   box-sizing: border-box;
   outline: 0;
   border: 0;
-  border-radius: 0;
   margin: 0;
   padding: 0 0.5rem;
 
