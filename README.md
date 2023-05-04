@@ -1,8 +1,10 @@
 # Mirthy
 A reusable set of styles and components meant to bring much mirth to the masses.
 
+Ignore all of this. I aim to rewrite this to be a style guide to match the style pattern I use on my websites and tools([mirth.cc](https://mirth.cc), [course warlock](https://warlock.mirth.cc/), and [cisurls](https://mirth.cc/cisurls-web/) being the tools and websites in question).
+
 <details>
-<summary>Ignore all of this. I aim to rewrite this to be a style guide to match the style pattern I use on my websites and tools([mirth.cc](https://mirth.cc), [course warlock](https://warlock.mirth.cc/), and [cisurls](https://mirth.cc/cisurls-web/) are all good examples)</summary>
+<summary>Old README</summary>
 
 ## Please god no
 To my chagrin, I exist in a world where I regularly have to use CSS. It's not a bad tool, mind you. In fact, it has a lot of genuinely fantastic design decisions—like it being declarative. It's more a victim of the environment in which it exists, where developers are guaranteed to run into niche and infuriating problems. 
