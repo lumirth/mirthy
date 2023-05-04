@@ -1,6 +1,9 @@
 # Mirthy
 A reusable set of styles and components meant to bring much mirth to the masses.
 
+<details>
+<summary>Ignore all of this. I aim to rewrite this to be a style guide to match the style pattern I use on my websites and tools([mirth.cc](https://mirth.cc), [course warlock](https://warlock.mirth.cc/), and [cisurls](https://mirth.cc/cisurls-web/) are all good examples)</summary>
+
 ## Please god no
 To my chagrin, I exist in a world where I regularly have to use CSS. It's not a bad tool, mind you. In fact, it has a lot of genuinely fantastic design decisions—like it being declarative. It's more a victim of the environment in which it exists, where developers are guaranteed to run into niche and infuriating problems. 
 
@@ -24,3 +27,4 @@ I don't have enough experience with SemVer or the attention span to find out abo
 Welcome to v0.1.0. Most of this is a sloppily-thrown-together mess that you shouldn't bother trying to use. For the most part, a lot of this will be me really getting my hands dirty and learning CSS. That also means you're guarenteed to find absolutely zero best practices. If I have done something right, I promise you it was by accident. This code is known to the state to cause cancer birth defects or other reproductive harm. Have fun.
 
 If you're reading this before there's any styles within the repo, that means I'm still refactoring [mirth.cc](https://mirth.cc) to fit the styles. Go check the site out if you want to know what things'll look like.
+</details>
